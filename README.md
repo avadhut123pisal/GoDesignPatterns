@@ -1,9 +1,8 @@
 # GoDesignPatterns
 
 Various design patterns are implemeted in golang.
-
 ## Problem statement:
-Detect intrusions and anomalous activity in the cloud applications.
+Detect intrusions and anomalous activities in the cloud applications.
 
 ## Overview:
 
@@ -30,8 +29,6 @@ The Falco Project is an open source runtime security tool which is now a CNCF in
 - We also require kubectl and Helm to be installed on your client machine.
 
 ### Install Falco:
-
-**Add the falcosecurity repo in Helm**
 
 ```bash
 helm repo add falcosecurity https://falcosecurity.github.io/charts
@@ -68,8 +65,6 @@ lmotel-demo logicmonitor/lmotel
 ```
 
 ### Install fluent-bit:
-
-**Add the fluent repo in Helm**
 
 ```bash
 helm repo add fluent https://fluent.github.io/helm-charts
